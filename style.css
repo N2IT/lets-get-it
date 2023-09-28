@@ -125,9 +125,9 @@ body{
   }
   
   .icon-size{
-    font-size: 5.5rem;
+    font-size: 10.5rem;
     padding: 0 0 5% 0;
-    color: #ef8172;
+    color: #EE9B00;
   }
   
   .icon-size:hover{
@@ -136,19 +136,25 @@ body{
   
   /* Testimonial Section */
   #testimonials {
-    background-color: #ef8172;
+    background-color: #E9D8A6;
     color: #fff;
   }
   
   .testimonial-text {
     font-size: 3rem;
     line-height: 1.5;
+    color: #005f73;
+  }
+
+  .testimonial-name {
+    color: #CA6702;
   }
   
   .testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
+    box-shadow: #00000096 3px 3px 16px 0px;
   }
   
   #press {
@@ -180,6 +186,10 @@ body{
       font-size: 2.5rem;
       line-height: 1.5;
       font-weight: 900;
+    }
+
+    .smallerFont {
+        font-size: 20px;
     }
   
   .social-icons{
